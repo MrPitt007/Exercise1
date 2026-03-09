@@ -49,4 +49,11 @@ while (countdown > 0)
     Exercise 4 complete
 }
 
+// Exercise 5 — Classes & Objects
+
+var pieter = new Person("Pieter", 30, 1.82);
+var inari  = new Person("Inari", 28, 1.70);
+
+Console.WriteLine(pieter.Introduce());
+Console.WriteLine(inari.Introduce());
 
