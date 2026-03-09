@@ -57,3 +57,15 @@ var inari  = new Person("Inari", 28, 1.70);
 Console.WriteLine(pieter.Introduce());
 Console.WriteLine(inari.Introduce());
 
+// Exercise 6 — Arrays & Lists
+
+// Array of integers
+int[] numbers = { 10, 20, 30, 40, 50 };
+
+Console.WriteLine("Array values:");
+for (int i = 0; i < numbers.Length; i++)
+{
+    Console.WriteLine(numbers[i]);
+}
+
+
