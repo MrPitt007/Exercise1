@@ -97,3 +97,18 @@ Console.WriteLine($"Sum = {sum}");
 string line = FormatPerson("Inari", 28);
 Console.WriteLine(line);
 
+
+// Overloaded methods: same name, different parameter lists
+int Add(int a, int b, int c)
+{
+    return a + b + c;
+}
+
+double Add(double a, double b)
+{
+    return a + b;
+}
+
+// ---- Calls (overload selection happens automatically) ----
+Console.WriteLine($"Add(5, 7, 3) = {Add(5, 7, 3)}");     // uses (int,int,int)
+Console.WriteLine($"Add(2.5, 1.5) = {Add(2.5, 1.5)}");   // uses (double,double)
