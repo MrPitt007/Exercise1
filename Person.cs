@@ -1,3 +1,5 @@
+public Person() {}   // needed for JSON deserialization
+
 public class Person
 {
     public string Name { get; set; }
