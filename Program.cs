@@ -68,4 +68,32 @@ for (int i = 0; i < numbers.Length; i++)
     Console.WriteLine(numbers[i]);
 }
 
+// Exercise 7 — Methods (Functions)
+
+// 1) A method that prints a greeting (no return value)
+void Greet(string name)
+{
+    Console.WriteLine($"Hello, {name}!");
+}
+
+// 2) A method that adds two integers (returns an int)
+int Add(int a, int b)
+{
+    return a + b;
+}
+
+// 3) A method that formats a person line (returns a string)
+string FormatPerson(string name, int age)
+{
+    return $"Name: {name}, Age: {age}";
+}
+
+// ---- Calls (run these to test) ----
+Greet("Pieter");
+
+int sum = Add(10, 20);
+Console.WriteLine($"Sum = {sum}");
+
+string line = FormatPerson("Inari", 28);
+Console.WriteLine(line);
 
