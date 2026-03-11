@@ -1,2 +1,26 @@
-.
-.
+using System;
+
+namespace Exercise4_Vehicles
+{
+    // Base class
+    public class Vehicle
+    {
+        // Properties
+        public string Name { get; set; }
+        public int PassengerCount { get; set; }
+        
+        // Constructor
+        public Vehicle(string name, int passengerCount)
+        {
+            Name = name;
+            PassengerCount = passengerCount;
+        }
+        
+        // Virtual method (can be overridden)
+        public virtual void DisplayInfo()
+        {
+            Console.WriteLine($"Vehicle: {Name}");
+            Console.WriteLine($"Passengers: {PassengerCount}");
+        }
+    }
+}
