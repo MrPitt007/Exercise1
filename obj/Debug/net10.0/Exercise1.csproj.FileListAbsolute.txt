@@ -12,3 +12,4 @@ C:\Users\Pieter\C+\Exercise1\obj\Debug\net10.0\refint\Exercise1.dll
 C:\Users\Pieter\C+\Exercise1\obj\Debug\net10.0\Exercise1.pdb
 C:\Users\Pieter\C+\Exercise1\obj\Debug\net10.0\Exercise1.genruntimeconfig.cache
 C:\Users\Pieter\C+\Exercise1\obj\Debug\net10.0\ref\Exercise1.dll
+C:\Users\Pieter\C+\Exercise1\obj\Debug\net10.0\Exercise1.sourcelink.json
